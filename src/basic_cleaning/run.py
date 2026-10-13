@@ -30,7 +30,7 @@ def go(args):
     # Convert last_review to datetime
     df['last_review'] = pd.to_datetime(df['last_review'])
 
-    # Step 6: TODO
+    # Step 6: TODO 
     # Only implement this step when reaching Step 6: Pipeline Release and Updates
     # in the project.
     # Add longitude and latitude filter to allow test_proper_boundaries to pass
